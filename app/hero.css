@@ -1,0 +1,26 @@
+.hero .topology {
+  width: min(100%, 380px);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  justify-self: center;
+}
+
+
+
+@media (max-width: 850px) {
+  .hero .topology {
+    order: -1;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero .topology {
+    width: 128px;
+    height: 128px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-position: center 18%;
+    margin: 0 auto 5px;
+  }
+}
